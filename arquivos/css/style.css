@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #121214;
+    background: linear-gradient(120deg, #6ebbd5, 	#7B68EE);
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-    background-color: #343439;
+    background-color: #242427;
     padding: 30px 40px;
     min-width: 470px;
     color: #efefef;
@@ -29,9 +29,9 @@ body {
 }
 
 .container h2 {
-    font-size: 30px;
+    font-size: 41px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .input-group {
@@ -54,7 +54,7 @@ body {
 .input-field input {
     background-color: transparent;
     border: none;
-    border-bottom: 2px solid #7336ff;
+    border-bottom: 2px solid #7B68EE;
     font-size: 18px;
     border-radius: 2px;
     padding: 5px;
@@ -63,11 +63,11 @@ body {
 
 .input-field input:focus {
     outline: none;
-    border-bottom: 3px solid #7336ff;
+    border-bottom: 3px solid #7B68EE;
 }
 
 #generate {
-    background-color: #7336ff;
+    background-color: #7B68EE;
     border: none;
     padding: 12px 20px;
     border-radius: 4px;
